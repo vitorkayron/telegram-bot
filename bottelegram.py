@@ -20,6 +20,8 @@ def devops(mensagem):
         "- Monitoramento e Observabilidade\n" +
         "- Provedor Cloud (Ex: AWS)\n" +
         "- Práticas de Engenharia de Software\n"
+        "Deseja outro roadmap: Vá para /Iniciar"
+
     )
 
 
@@ -34,7 +36,8 @@ def backend(mensagem):
         "- Segurança da Web\n" + 
         "- API\n" + 
         "- Containerização e Teste\n" + 
-        "- Provedor Cloud (Ex: AWS)\n"
+        "- Provedor Cloud (Ex: AWS)\n" +
+        "Deseja outro roadmap: Vá para /Iniciar"
     )
 
 
@@ -48,7 +51,9 @@ def frontend(mensagem):
         "- Package Manager\n" +  
         "- GIT\n" + 
         "- Testes\n" + 
-        "- Deploy\n"
+        "- Deploy\n" +
+        "Deseja outro roadmap: Vá para /Iniciar"
+
     )
 
 @bot.message_handler(commands=['DataScience'])
@@ -65,7 +70,8 @@ def datascience(mensagem):
         "- Dashboards\n" +
         "- SQL\n" +
         "- Python Regular Expression\n" +
-        "- Análise de Séries Temporais\n"
+        "- Análise de Séries Temporais\n" +
+        "Deseja outro roadmap: Vá para /Iniciar"
     )
 
 
